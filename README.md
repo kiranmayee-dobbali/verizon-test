@@ -1,6 +1,6 @@
 This is for verizon test.
 
-#Verizon Random Number Generator
+##Verizon Random Number Generator:
 This project is to generate a 4 digit random code based on current date,time and pi value.
 
 

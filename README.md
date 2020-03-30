@@ -5,7 +5,7 @@ This project is to generate a 4 digit random code based on current date,time and
 
 
 ## Steps to run the program:
-
+This program is developed in python 3.8 version.
 ``` bash
 $ cd verizon
 $ python runner.py
@@ -15,7 +15,7 @@ or
 If your default version is not python 3 use:
 ``` bash
 $ cd verizon
-$ python runner.py
+$ python3 runner.py
 ```
 Example output:
 ``` bash

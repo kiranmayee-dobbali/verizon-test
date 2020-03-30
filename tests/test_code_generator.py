@@ -1,9 +1,8 @@
 from datetime import date, datetime
-from decimal import Decimal,getcontext
+from decimal import Decimal, getcontext
 import math
 import unittest
 from unittest.mock import patch
-
 
 from verizon.code_generator import CodeGenerator
 
@@ -46,11 +45,12 @@ class TestCodeGenerator(unittest.TestCase):
         pi = Decimal('3.141593')
         self.assertEqual(CodeGenerator.get_pi_value(3, 4, 5, 6), pi)
 
-    @patch('verizon.code_generator.CodeGenerator.calculate_n4',return_value=6)
-    @patch('verizon.code_generator.CodeGenerator.calculate_n3',return_value=5)
-    @patch('verizon.code_generator.CodeGenerator.calculate_n2',return_value=4)
+    @patch('verizon.code_generator.CodeGenerator.calculate_n4', return_value=6)
+    @patch('verizon.code_generator.CodeGenerator.calculate_n3', return_value=5)
+    @patch('verizon.code_generator.CodeGenerator.calculate_n2', return_value=4)
     @patch('verizon.code_generator.CodeGenerator.calculate_n1', return_value=3)
-    def test_generate_random_number(self, calculate_n1_function, calculate_n2_function, calculate_n3_function, calculate_n4_function):
+    def test_generate_random_number(self, calculate_n1_function, calculate_n2_function, calculate_n3_function,
+                                    calculate_n4_function):
         cg = CodeGenerator()
         self.assertEqual(cg.generate_random_number(), 3951)
 

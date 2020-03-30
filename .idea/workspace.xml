@@ -2,17 +2,47 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="df096f95-110e-47c6-84b1-641c07cb81a6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/verizon-kiranmayee-dobbali-0.0.1.tar.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/verizon_kiranmayee_dobbali.egg-info/PKG-INFO" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/verizon_kiranmayee_dobbali.egg-info/SOURCES.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/verizon_kiranmayee_dobbali.egg-info/dependency_links.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/verizon_kiranmayee_dobbali.egg-info/top_level.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/doctrees/environment.pickle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/doctrees/index.doctree" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/html/.buildinfo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/html/_modules/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/html/_modules/verizon/code_generator.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/html/_sources/index.rst.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/html/_static/alabaster.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/html/_static/basic.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/html/_static/custom.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/html/_static/doctools.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/html/_static/documentation_options.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/html/_static/file.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/html/_static/jquery-3.4.1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/html/_static/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/html/_static/language_data.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/html/_static/minus.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/html/_static/plus.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/html/_static/pygments.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/html/_static/searchtools.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/html/_static/underscore-1.3.1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/html/_static/underscore.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/html/genindex.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/html/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/html/objects.inv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/html/py-modindex.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/html/search.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/html/searchindex.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/make.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/conf.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/index.rst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LICENSE.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/setup.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/first.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/test_code_generator.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_code_generator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/verizon/__version__.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/verizon/code_generator.py" beforeDir="false" afterPath="$PROJECT_DIR$/verizon/code_generator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/verizon/output.log" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/verizon/runner.py" beforeDir="false" afterPath="$PROJECT_DIR$/verizon/runner.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -55,7 +85,7 @@
       <recent name="C:\Users\md\PycharmProjects\Verizon" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for test_code_generator.TestCodeGenerator.test_generate_random_number">
+  <component name="RunManager" selected="Python.runner">
     <configuration name="code_generator" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Verizon" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -112,20 +142,6 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_code_generator.TestCodeGenerator.test_get_nth_digit" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="Verizon" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_code_generator.TestCodeGenerator.test_get_nth_digit&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
     <configuration name="Unittests for test_code_generator.TestCodeGenerator.test_get_pi_value" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Verizon" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -140,13 +156,27 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="Unittests in test_code_generator.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="Verizon" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/test_code_generator.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Unittests for test_code_generator.TestCodeGenerator.test_generate_random_number" />
-        <item itemvalue="Python tests.Unittests for test_code_generator.TestCodeGenerator.test_get_pi_value" />
-        <item itemvalue="Python tests.Unittests for test_code_generator.TestCodeGenerator.test_get_nth_digit" />
         <item itemvalue="Python.runner" />
         <item itemvalue="Python.code_generator" />
+        <item itemvalue="Python tests.Unittests in test_code_generator.py" />
+        <item itemvalue="Python tests.Unittests for test_code_generator.TestCodeGenerator.test_generate_random_number" />
+        <item itemvalue="Python tests.Unittests for test_code_generator.TestCodeGenerator.test_get_pi_value" />
       </list>
     </recent_temporary>
   </component>
@@ -167,29 +197,29 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1260" height="189" key="GridCell.Tab.0.bottom" timestamp="1585527789457">
+    <state width="1260" height="119" key="GridCell.Tab.0.bottom" timestamp="1585538593340">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1260" height="189" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1585527789457" />
-    <state width="1260" height="189" key="GridCell.Tab.0.center" timestamp="1585527789456">
+    <state width="1260" height="119" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1585538593340" />
+    <state width="1260" height="119" key="GridCell.Tab.0.center" timestamp="1585538593339">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1260" height="189" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1585527789456" />
-    <state width="1260" height="189" key="GridCell.Tab.0.left" timestamp="1585527789456">
+    <state width="1260" height="119" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1585538593339" />
+    <state width="1260" height="119" key="GridCell.Tab.0.left" timestamp="1585538593339">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1260" height="189" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1585527789456" />
-    <state width="1260" height="189" key="GridCell.Tab.0.right" timestamp="1585527789456">
+    <state width="1260" height="119" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1585538593339" />
+    <state width="1260" height="119" key="GridCell.Tab.0.right" timestamp="1585538593339">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1260" height="189" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1585527789456" />
+    <state width="1260" height="119" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1585538593339" />
     <state x="348" y="168" key="com.intellij.ide.util.TipDialog" timestamp="1585531317343">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="348" y="168" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1585531317343" />
-    <state x="303" y="2" width="672" height="678" key="search.everywhere.popup" timestamp="1585521086169">
+    <state x="304" y="3" width="672" height="678" key="search.everywhere.popup" timestamp="1585529457412">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="303" y="2" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1585521086169" />
+    <state x="304" y="3" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1585529457412" />
   </component>
 </project>

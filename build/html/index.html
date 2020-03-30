@@ -1,0 +1,218 @@
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8" />
+    <title>Welcome to verizon-test’s documentation! &#8212; verizon 0.0.1 documentation</title>
+    <link rel="stylesheet" href="_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="_static/language_data.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <div class="section" id="module-verizon.code_generator">
+<span id="welcome-to-verizon-test-s-documentation"></span><h1>Welcome to verizon-test’s documentation!<a class="headerlink" href="#module-verizon.code_generator" title="Permalink to this headline">¶</a></h1>
+<dl class="class">
+<dt id="verizon.code_generator.CodeGenerator">
+<em class="property">class </em><code class="sig-prename descclassname">verizon.code_generator.</code><code class="sig-name descname">CodeGenerator</code><a class="reference internal" href="_modules/verizon/code_generator.html#CodeGenerator"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#verizon.code_generator.CodeGenerator" title="Permalink to this definition">¶</a></dt>
+<dd><p>This a class to generate a 4 digit random code number.</p>
+<dl class="method">
+<dt id="verizon.code_generator.CodeGenerator.calculate_n1">
+<em class="property">static </em><code class="sig-name descname">calculate_n1</code><span class="sig-paren">(</span><span class="sig-paren">)</span> &#x2192; int<a class="reference internal" href="_modules/verizon/code_generator.html#CodeGenerator.calculate_n1"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#verizon.code_generator.CodeGenerator.calculate_n1" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return sum of day,month and year of current date</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="verizon.code_generator.CodeGenerator.calculate_n2">
+<em class="property">static </em><code class="sig-name descname">calculate_n2</code><span class="sig-paren">(</span><span class="sig-paren">)</span> &#x2192; int<a class="reference internal" href="_modules/verizon/code_generator.html#CodeGenerator.calculate_n2"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#verizon.code_generator.CodeGenerator.calculate_n2" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return sum of hour, minute and seconds of current time</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="verizon.code_generator.CodeGenerator.calculate_n3">
+<code class="sig-name descname">calculate_n3</code><span class="sig-paren">(</span><span class="sig-paren">)</span> &#x2192; int<a class="reference internal" href="_modules/verizon/code_generator.html#CodeGenerator.calculate_n3"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#verizon.code_generator.CodeGenerator.calculate_n3" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return sum of rounded 5 digits in decimal part of seconds value.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="verizon.code_generator.CodeGenerator.calculate_n4">
+<em class="property">static </em><code class="sig-name descname">calculate_n4</code><span class="sig-paren">(</span><em class="sig-param">n_1: int</em>, <em class="sig-param">n_2: int</em>, <em class="sig-param">n_3: int</em><span class="sig-paren">)</span> &#x2192; int<a class="reference internal" href="_modules/verizon/code_generator.html#CodeGenerator.calculate_n4"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#verizon.code_generator.CodeGenerator.calculate_n4" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return reminder of sum of arguments when divided by 7</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>n_1</strong> (<em>int</em>) – A number which is sum of current date</p></li>
+<li><p><strong>n_2</strong> (<em>int</em>) – A number which is sum of current time</p></li>
+<li><p><strong>n_3</strong> (<em>int</em>) – A number which is sum of rounded five digits in decimal part of current seconds value</p></li>
+</ul>
+</dd>
+</dl>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">calculate_n4</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">)</span>
+<span class="go">6</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">calculate_n4</span><span class="p">(</span><span class="mi">9</span><span class="p">,</span><span class="mi">6</span><span class="p">,</span><span class="mi">10</span><span class="p">)</span>
+<span class="go">4</span>
+</pre></div>
+</div>
+<p>Input : n_1, n_2, n_3 positions of pi decimal value.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="verizon.code_generator.CodeGenerator.generate_random_number">
+<code class="sig-name descname">generate_random_number</code><span class="sig-paren">(</span><span class="sig-paren">)</span> &#x2192; int<a class="reference internal" href="_modules/verizon/code_generator.html#CodeGenerator.generate_random_number"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#verizon.code_generator.CodeGenerator.generate_random_number" title="Permalink to this definition">¶</a></dt>
+<dd><p>Generate 4 digit random number using n_1, n_2, n_3 and n_4.</p>
+<p>Return : new_random_number which is 4 digit code.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="verizon.code_generator.CodeGenerator.get_nth_digit">
+<em class="property">static </em><code class="sig-name descname">get_nth_digit</code><span class="sig-paren">(</span><em class="sig-param">pi: decimal.Decimal</em>, <em class="sig-param">position: int</em><span class="sig-paren">)</span> &#x2192; int<a class="reference internal" href="_modules/verizon/code_generator.html#CodeGenerator.get_nth_digit"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#verizon.code_generator.CodeGenerator.get_nth_digit" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get the digit in the decimal part of pi value at given position.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>pi</strong> (<em>int</em>) – A decimal value of pi(22/7)</p></li>
+<li><p><strong>position</strong> (<em>int</em>) – A number which denotes position in decimal part of pi value.</p></li>
+</ul>
+</dd>
+</dl>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">get_nth_digit</span><span class="p">(</span><span class="mf">3.141529</span><span class="p">,</span><span class="mi">3</span><span class="p">)</span>
+<span class="go">1</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">get_nth_digit</span><span class="p">(</span><span class="mf">3.141529</span><span class="p">,</span><span class="mi">5</span><span class="p">)</span>
+<span class="go">2</span>
+</pre></div>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="verizon.code_generator.CodeGenerator.get_pi_value">
+<em class="property">static </em><code class="sig-name descname">get_pi_value</code><span class="sig-paren">(</span><em class="sig-param">n_1: int</em>, <em class="sig-param">n_2: int</em>, <em class="sig-param">n_3: int</em>, <em class="sig-param">n_4: int</em><span class="sig-paren">)</span> &#x2192; decimal.Decimal<a class="reference internal" href="_modules/verizon/code_generator.html#CodeGenerator.get_pi_value"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#verizon.code_generator.CodeGenerator.get_pi_value" title="Permalink to this definition">¶</a></dt>
+<dd><p>Calculate pi value.</p>
+<p>pi value is generated by using Chudnovsky Algorithm.
+Refer this page for details: <a class="reference external" href="https://en.wikipedia.org/wiki/Chudnovsky_algorithm">https://en.wikipedia.org/wiki/Chudnovsky_algorithm</a></p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>n_1</strong> (<em>int</em>) – A number which is sum of current date</p></li>
+<li><p><strong>n_2</strong> (<em>int</em>) – A number which is sum of current time</p></li>
+<li><p><strong>n_3</strong> (<em>int</em>) – A number which is sum of rounded five digits in decimal part of current seconds value</p></li>
+<li><p><strong>n_4</strong> (<em>int</em>) – A number which is calculated by sum of n_1, n_2, n_3 mod 7</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="verizon.code_generator.CodeGenerator.sum_digits_number">
+<em class="property">static </em><code class="sig-name descname">sum_digits_number</code><span class="sig-paren">(</span><em class="sig-param">number: int</em><span class="sig-paren">)</span> &#x2192; int<a class="reference internal" href="_modules/verizon/code_generator.html#CodeGenerator.sum_digits_number"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#verizon.code_generator.CodeGenerator.sum_digits_number" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return sum of digits in a number.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>number</strong> (<em>int</em>) – A number for which sum of digits to be calculated</p>
+</dd>
+</dl>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">sum_digits_number</span><span class="p">(</span><span class="mi">1234</span><span class="p">)</span>
+<span class="go">10</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">sum_digits_number</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span>
+<span class="go">0</span>
+</pre></div>
+</div>
+</dd></dl>
+
+</dd></dl>
+
+<div class="toctree-wrapper compound">
+</div>
+</div>
+<div class="section" id="indices-and-tables">
+<h1>Indices and tables<a class="headerlink" href="#indices-and-tables" title="Permalink to this headline">¶</a></h1>
+<ul class="simple">
+<li><p><a class="reference internal" href="genindex.html"><span class="std std-ref">Index</span></a></p></li>
+<li><p><a class="reference internal" href="py-modindex.html"><span class="std std-ref">Module Index</span></a></p></li>
+<li><p><a class="reference internal" href="search.html"><span class="std std-ref">Search Page</span></a></p></li>
+</ul>
+</div>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="#">verizon</a></h1>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="#">Documentation overview</a><ul>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2020, spider man.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.2.0</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
+      
+      |
+      <a href="_sources/index.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

@@ -30,6 +30,9 @@ class CodeGenerator:
 
 
     """
+    @staticmethod
+    def today_string_date():
+        return date.today().strftime('%Y-%m-%d')
 
     @staticmethod
     def calculate_n1() -> int:
@@ -123,9 +126,7 @@ class CodeGenerator:
             pi += Decimal(numerator) / Decimal(denominator)
         pi = pi * Decimal(12) / Decimal(640320 ** Decimal(1.5))
         pi = 1 / pi
-
         # logging.debug("value of pi is : ", pi)
-
         return pi
 
     def generate_random_number(self) -> int:
@@ -146,4 +147,3 @@ class CodeGenerator:
         return new_random_number
 
 
-#help(CodeGenerator)

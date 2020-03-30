@@ -6,6 +6,8 @@ This project is to generate a 4 digit random code based on current date,time and
 
 ## Steps to run the program:
 This program is developed in python 3.8 version.
+Once you are in Verizon folder, follow below steps:
+
 ``` bash
 $ cd verizon
 $ python runner.py
@@ -38,7 +40,7 @@ Ran 8 tests in 0.011s
 
 OK
 ```
-### Steps to access the documentation
+## Steps to access the documentation
 ``` bash
 $ cd build
 $ cd html

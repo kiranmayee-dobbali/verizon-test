@@ -2,48 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="df096f95-110e-47c6-84b1-641c07cb81a6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/doctrees/environment.pickle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/doctrees/index.doctree" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/html/.buildinfo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/html/_modules/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/html/_modules/verizon/code_generator.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/html/_sources/index.rst.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/html/_static/alabaster.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/html/_static/basic.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/html/_static/custom.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/html/_static/doctools.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/html/_static/documentation_options.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/html/_static/file.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/html/_static/jquery-3.4.1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/html/_static/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/html/_static/language_data.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/html/_static/minus.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/html/_static/plus.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/html/_static/pygments.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/html/_static/searchtools.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/html/_static/underscore-1.3.1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/html/_static/underscore.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/html/genindex.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/html/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/html/objects.inv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/html/py-modindex.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/html/search.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/html/searchindex.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/make.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/conf.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/index.rst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Verizon.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LICENSE.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/setup.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/first.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_code_generator.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_code_generator.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/verizon/__version__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/verizon/code_generator.py" beforeDir="false" afterPath="$PROJECT_DIR$/verizon/code_generator.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/verizon/output.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/verizon/runner.py" beforeDir="false" afterPath="$PROJECT_DIR$/verizon/runner.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/doctrees/environment.pickle" beforeDir="false" afterPath="$PROJECT_DIR$/build/doctrees/environment.pickle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/doctrees/index.doctree" beforeDir="false" afterPath="$PROJECT_DIR$/build/doctrees/index.doctree" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/html/_sources/index.rst.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/html/_sources/index.rst.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/html/searchindex.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/html/searchindex.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/conf.py" beforeDir="false" afterPath="$PROJECT_DIR$/source/conf.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/index.rst" beforeDir="false" afterPath="$PROJECT_DIR$/source/index.rst" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
